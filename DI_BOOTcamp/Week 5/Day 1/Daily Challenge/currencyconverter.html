@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-exchange-alt"></i> Currency Converter</h1>
+
+        <div class="converter">
+            <!-- From -->
+            <div class="input-group">
+                <label>Amount</label>
+                <input type="number" id="amount" value="1" step="any">
+            </div>
+
+            <div class="currency-row">
+                <div class="select-group">
+                    <label>From</label>
+                    <select id="fromCurrency"></select>
+                </div>
+
+                <!-- Switch Button -->
+                <button id="switchBtn" class="switch-btn" title="Switch currencies">
+                    <i class="fas fa-exchange-alt"></i>
+                </button>
+
+                <div class="select-group">
+                    <label>To</label>
+                    <select id="toCurrency"></select>
+                </div>
+            </div>
+
+            <button id="convertBtn" class="convert-btn">
+                Convert
+            </button>
+
+            <!-- Result -->
+            <div id="result" class="result hidden">
+                <p id="convertedAmount"></p>
+                <p id="rateInfo" class="rate"></p>
+            </div>
+
+            <div id="loading" class="loading hidden">
+                <i class="fas fa-spinner fa-spin"></i> Converting...
+            </div>
+
+            <div id="error" class="error hidden"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

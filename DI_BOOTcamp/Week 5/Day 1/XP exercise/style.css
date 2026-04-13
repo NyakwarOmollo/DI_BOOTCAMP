@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: #f0f0f0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 600px;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    text-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+}
+
+button {
+    background: #ffd700;
+    color: #000;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 20px 0;
+    transition: all 0.3s;
+    box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4);
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: #ffed4e;
+}
+
+.loading, .error, .character-card {
+    margin-top: 30px;
+    padding: 25px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+}
+
+.loading i {
+    font-size: 3rem;
+    color: #ffd700;
+    margin-bottom: 15px;
+}
+
+.character-card {
+    text-align: left;
+    max-width: 500px;
+    margin: 30px auto;
+    border: 2px solid #ffd700;
+    box-shadow: 0 0 25px rgba(255, 215, 0, 0.5);
+}
+
+.character-card h2 {
+    color: #ffd700;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.info p {
+    font-size: 1.1rem;
+    margin: 12px 0;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255,215,0,0.2);
+}
+
+.info p:last-child {
+    border-bottom: none;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.error {
+    color: #ff6b6b;
+    background: rgba(255, 107, 107, 0.15);
+}
