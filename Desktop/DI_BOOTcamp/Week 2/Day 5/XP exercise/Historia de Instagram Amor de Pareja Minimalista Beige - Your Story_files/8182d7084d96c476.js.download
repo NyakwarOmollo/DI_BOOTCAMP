@@ -1,0 +1,10 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[83505],{
+
+/***/ 928311:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(838531);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var T=__c.T;
+__c.LEl=__c.I(()=>({id:__c.S("id",1),media:__c.S("media",2),resource:T("resource",16),resourceType:__c.Wa("resourceType",18,__c.XLd),LG:__c.pp("mediaVersion",3),exa:__c.pp("resourceVersion",17),brand:__c.S("brand",4),user:T("user",14),dXa:T("creatingBrand",5),Vbi:T("invoiceItem",6),document:T("document",7),Mn:__c.np("createdDate",8),T0l:__c.qp("expiryDate",10),type:__c.Va("type",11,__c.VLd),zhg:__c.Wa("usageRestriction",20,__c.KEl),status:__c.Va("status",12,__c.WLd),H8j:__c.S("mediaBrand",13),SFq:T("resourceBrand",
+19),Zu:__c.Wa("prerequisite",21,__c.YLd)}));
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/8182d7084d96c476.js.map

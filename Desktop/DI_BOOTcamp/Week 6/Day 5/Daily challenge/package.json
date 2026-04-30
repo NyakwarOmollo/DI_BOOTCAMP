@@ -1,0 +1,15 @@
+{
+  "name": "emoji-guessing-game",
+  "version": "1.0.0",
+  "description": "Fun Emoji Guessing Game with Express",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "cors": "^2.8.5"
+  }
+}

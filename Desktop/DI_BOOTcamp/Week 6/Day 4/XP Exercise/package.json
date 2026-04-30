@@ -1,0 +1,21 @@
+{
+  "name": "node-modules-exercises",
+  "version": "1.0.0",
+  "description": "All Node.js Module Exercises Combined",
+  "type": "module",
+  "main": "app-es6.js",
+  "scripts": {
+    "shop": "node shop.js",
+    "es6": "node app-es6.js",
+    "file": "node file-app.js",
+    "todo": "node todo-app.js",
+    "math": "node math-app.js",
+    "chalk": "node chalk-app.js",
+    "copy": "node copy-file.js",
+    "list": "node read-directory.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "lodash": "^4.17.21"
+  }
+}

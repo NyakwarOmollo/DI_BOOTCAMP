@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Character Explorer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌌 Star Wars Character Explorer</h1>
+        <p>Click the button to discover a random character from the Star Wars universe!</p>
+        
+        <button id="fetchBtn" class="fetch-btn">
+            <i class="fas fa-random"></i> Find Someone
+        </button>
+
+        <div id="loading" class="loading hidden">
+            <i class="fas fa-spinner fa-spin"></i>
+            <p>Loading character from a galaxy far, far away...</p>
+        </div>
+
+        <div id="error" class="error hidden">
+            <i class="fas fa-exclamation-triangle"></i>
+            <p>Failed to fetch character. The Force is not strong enough right now. Try again!</p>
+        </div>
+
+        <div id="character" class="character-card hidden">
+            <h2 id="name"></h2>
+            <div class="info">
+                <p><strong>Height:</strong> <span id="height"></span> cm</p>
+                <p><strong>Gender:</strong> <span id="gender"></span></p>
+                <p><strong>Birth Year:</strong> <span id="birthYear"></span></p>
+                <p><strong>Homeworld:</strong> <span id="homeworld"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

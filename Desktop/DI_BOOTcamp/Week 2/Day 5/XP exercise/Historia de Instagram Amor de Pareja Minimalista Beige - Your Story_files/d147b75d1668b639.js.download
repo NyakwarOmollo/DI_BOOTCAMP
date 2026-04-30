@@ -1,0 +1,8 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[11064],{
+
+/***/ 452006:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var jTl;jTl=function(a){return a?.length?a[0].ye.some(b=>b.Pi===3):!1};__c.lTl=function(a){return a?kTl.includes(a):!1};__c.nTl=function(a){return a?mTl.includes(a):!1};__c.oTl=function(a){var b;(b=a.type!=="DESIGN")||(b=a.metadata?.metadata!=="BRAND_METADATA"?!0:(b=a.metadata.NOc.get(0))?!(b.width<0&&b.height<0):!1,b=!b);b||(b=__c.lTl(a.TV)||__c.nTl(a.category)||__c.rb("c6f53f4b",!1)&&jTl(a.pages)?!0:!1);return b?!1:!0};var kTl="TADUvCyAV_U TAD9VKDO5tI TAEKEZ4uTi0 TAEKEab_T_A TAEMhA1EV4A TADb-Ix-KcM TAEIwuIkg1E TAE4ek74Aow TAE5OuEyhSI TAEkn1Rd4U8 TAEknyG43hc TAEkn13sqlo TAEkn3KeOEg TAEkn9n31co TAEknz6EyXA TAEkn7ZX4fg TAFCU7MRMGU TAD2BZngkJI TAD4LEErSWE TAECHFpFUMA TADgdT4epHY TAEB2h7V5Cw TADmiywAggI TADb3LWYYw4 TADR8ai3eSk".split(" "),mTl="tADs1de8MlY tADLkiOZv3A tAEEZ_gIPxM tAEQi3VbtdM tAEDhQKWj2c tADbfqfbIxE".split(" ");
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/d147b75d1668b639.js.map

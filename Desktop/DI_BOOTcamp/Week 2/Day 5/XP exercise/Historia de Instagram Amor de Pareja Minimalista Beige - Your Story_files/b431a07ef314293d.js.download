@@ -1,0 +1,11 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[12268],{
+
+/***/ 273032:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var rEl;__c.sEl=function({id:a,je:b,FCn:c}){const d=oEl(()=>({loading:!1,Vf:[]}));pEl(()=>{let e=!0;c&&(qEl(()=>{d.loading=!0}),b.rLa({id:a}).then(rEl.wrap(({Vf:f,gi:g})=>{e&&qEl(()=>{d.loading=!1;d.Vf=g?[g]:f})})));return()=>{e=!1}},[c,a,b,d]);return d};rEl=__webpack_require__(815703).F;var oEl=__webpack_require__(270531).iz;var tEl=__webpack_require__(978109),uEl=tEl.Component,pEl=tEl.useEffect;var vEl=__webpack_require__(186901),wEl=vEl.EW,qEl=vEl.h5,xEl=vEl.sH,yEl=vEl.XI;var zEl=__webpack_require__(296713),AEl=zEl.Fragment,BEl=zEl.jsx,CEl=zEl.jsxs;var DEl=__webpack_require__(549056)._;var EEl=__webpack_require__(621369)._;var FEl,GEl,IEl;IEl=class extends DEl{constructor(){super(__c.HEl);FEl()}};
+new ((()=>{const a=GEl=uEl;class b extends a{static G(c){__c.N(c,{q1j:xEl.ref,CVk:wEl,P8h:wEl,Rhq:yEl.bound})}get CVk(){const c=this.props.Vf,d=this.props.sCc;return(this.q1j?c:c.slice(0,2)).map(e=>BEl("span",{className:"_7077oQ",children:BEl(d,{Ta:e})},e.id))}get P8h(){const c=this.props.Vf;return this.q1j?[]:c.slice(2).map(d=>d.title)}Rhq(){this.q1j=!0}render(){const c=this.props.xrx,d=this.props.Kpg;return CEl(AEl,{children:[c&&c.filter(__c.zb).map((e,f)=>BEl("span",{className:"_7077oQ",children:e},
+`before-${f}`)),(this.CVk.length>0||this.P8h.length>0)&&CEl("span",{className:"_7077oQ",children:[this.CVk.length>0&&this.CVk,this.P8h.length>0&&BEl(__c.xk,{onClick:this.Rhq,className:"Uj029A",variant:"muted",children:BEl(__c.Ld,{label:this.P8h.join(", "),placement:"top",children:BEl("span",{children:__c.K("UQXCjA",[this.P8h.length])})})})]}),d&&d.filter(__c.zb).map((e,f)=>BEl("span",{className:"_7077oQ",children:e},`after-${f}`))]})}constructor(...c){super(...c);this.q1j=(__c.HEl.G(this),!1)}}({c:[__c.HEl,
+FEl]}=EEl(b,[],[__c.Wb],GEl))})(),IEl);
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/b431a07ef314293d.js.map

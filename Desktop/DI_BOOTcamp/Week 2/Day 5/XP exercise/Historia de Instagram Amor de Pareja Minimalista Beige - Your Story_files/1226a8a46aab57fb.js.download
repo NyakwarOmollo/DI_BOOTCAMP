@@ -1,0 +1,9 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[47157],{
+
+/***/ 147967:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(15828);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var $Hl=__webpack_require__(815703).F;var aIl=__webpack_require__(296713).jsx;var bIl=__webpack_require__(978109).Component;__c.cIl=class extends bIl{static getDerivedStateFromError(a){return a instanceof Error?{Twf:a,TFj:a instanceof __c.Bul?!0:!1}:{}}componentDidUpdate(a,b){this.props.design!==a.design&&(this.nFg=0);this.state.Twf===void 0&&b.Twf!==void 0&&b.TFj===!0&&this.N7a===void 0&&(this.N7a=window.setTimeout($Hl.wrap(()=>{this.nFg=0;this.N7a=void 0}),5E3))}componentDidCatch(a){a instanceof __c.Bul&&this.props.mlb!==void 0&&(this.nFg++,this.nFg>3?this.setState({mjn:"failed"}):(clearInterval(this.N7a),this.N7a=void 0,
+this.props.mlb(this.props.design).then($Hl.wrap(()=>{this.state.Twf===a&&this.setState({Twf:void 0,TFj:void 0})})).catch($Hl.wrap(()=>{this.setState({mjn:"failed"})}))))}render(){if(this.state.Twf===void 0)return this.props.children;if(this.state.TFj===!1)throw this.state.Twf;return this.props.mlb===void 0||this.state.mjn==="failed"?this.props.fallback:aIl(__c.Bk,{index:0,shape:"rectangle"})}constructor(...a){super(...a);this.state={Twf:void 0,TFj:void 0,mjn:"idle"};this.nFg=0;this.N7a=void 0}};
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/1226a8a46aab57fb.js.map

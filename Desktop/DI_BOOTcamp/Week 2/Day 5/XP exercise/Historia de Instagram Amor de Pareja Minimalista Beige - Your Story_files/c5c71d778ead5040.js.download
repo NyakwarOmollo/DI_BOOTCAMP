@@ -1,0 +1,10 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[42776],{
+
+/***/ 135473:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(555324);__web_req__(398235);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var uH=__c.uH;var M=__c.M;var xx=__c.xx;__c.hIl=function(a){a=__c.fhh(a);return __c.gIl(a)};
+__c.gIl=function(a){const b=a.name?.trim();if(b)return b;switch(a.Jo){case xx.COLOR:return M("blxtpg");case xx.Cpa:return M("JMluOw");case xx.jva:return M("ARxEpA");case xx.ADa:return M("q52quQ");case xx.Yra:return M("TcPn3w");case xx.zDa:return M("J9ITPQ");case xx.Ska:switch(a.ZSa){case uH.Q3k:return M("cmopWA");case uH.R3k:return M("9ETjeA");case uH.S3k:return M("Z2BeTw");case uH.dHe:return M("mWvf0Q");case uH.CYk:case void 0:return M("G5HYPw");default:throw new __c.v(a.ZSa);}default:throw new __c.v(a.Jo);
+}};__c.iIl={[xx.ADa]:"BRAND_VOICE",[xx.Yra]:"CHART",[xx.COLOR]:"COLOR",[xx.Ska]:"FLEXIBLE",[xx.Cpa]:"LOGO",[xx.jva]:"TEXT_STYLE",[xx.zDa]:"BRAND_TEMPLATE"};__c.jIl=[xx.ADa,xx.Yra,xx.COLOR,xx.Ska,xx.Cpa,xx.jva];
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/c5c71d778ead5040.js.map

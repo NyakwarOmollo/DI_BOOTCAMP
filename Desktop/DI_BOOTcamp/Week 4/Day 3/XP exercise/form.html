@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form - GET vs POST</title>
+</head>
+<body>
+
+    <h1>Exercise 1 & 2: HTML Form</h1>
+
+    <!-- Exercise 1: GET Method -->
+    <h2>1. Form using GET method</h2>
+    <form action="form-test.html" method="GET">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="message">Your Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
+        
+        <input type="submit" value="Send (GET)">
+    </form>
+
+    <hr>
+
+    <!-- Exercise 2: POST Method -->
+    <h2>2. Form using POST method</h2>
+    <form action="form-test.html" method="POST">
+        <label for="name2">Your Name:</label><br>
+        <input type="text" id="name2" name="name"><br><br>
+        
+        <label for="message2">Your Message:</label><br>
+        <textarea id="message2" name="message" rows="5" cols="40"></textarea><br><br>
+        
+        <input type="submit" value="Send (POST)">
+    </form>
+
+</body>
+</html>

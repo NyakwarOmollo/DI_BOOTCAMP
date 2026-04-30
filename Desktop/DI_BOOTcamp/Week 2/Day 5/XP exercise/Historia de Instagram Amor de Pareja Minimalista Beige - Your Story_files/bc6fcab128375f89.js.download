@@ -1,0 +1,10 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[43081],{
+
+/***/ 340056:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(153707);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var DPl;
+__c.GPl=function({loader:a,errorService:b,W4y:c,ra:d,PM:e,Hp:f}){const g=BPl(__c.nrl,{config:a.placeholder,Vha:void 0,hz:void 0,KY:void 0,PM:e,Hp:f}),h=CPl(async()=>{const k=DPl()();try{let l;try{l=k.r(await k.s(a.load())).content}catch(m){k.r(),b?.$q(m,{Ha:"Failed to load content for sidebar pane."+(c?" Attempting to fallback to alternate pane.":"")}),c?.()}return{default:EPl(({Vha:m,hz:p,KY:q})=>l?BPl(__c.nrl,{config:l.get(),ra:d,hz:p,Vha:m,KY:q,PM:e,Hp:f}):g)}}finally{k.s()}});return({Vha:k,hz:l,
+KY:m})=>BPl(FPl,{fallback:g,children:BPl(h,{Vha:k,KY:m,hz:l})})};DPl=__webpack_require__(929846)._;var BPl=__webpack_require__(296713).jsx;var EPl=__webpack_require__(270531).PA;var HPl=__webpack_require__(978109),CPl=HPl.lazy,FPl=HPl.Suspense;
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/bc6fcab128375f89.js.map

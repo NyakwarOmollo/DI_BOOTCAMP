@@ -1,0 +1,8 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[76340],{
+
+/***/ 642256:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var I=__c.I;var DPn=I(()=>({type:__c.B("A?",1,"TEXT_INPUT"),label:__c.S(1),placeholder:__c.T(2)}));var EPn=I(()=>({type:__c.B("A?",2,"SWITCH"),label:__c.S(1),description:__c.T(2)}));var FPn=__c.db(()=>[1,2,3,4,5,6]);var GPn=I(()=>({type:__c.B("A?",3,"LABEL"),text:__c.S(1),size:__c.Wa(2,FPn)}));var HPn=__c.cb(()=>({type:[1,DPn,2,EPn,3,GPn]}),()=>({}));var IPn=I(()=>({width:__c.mp("width",1),height:__c.mp("height",2)}));__c.JPn=I(()=>({enabled:__c.up("enabled",1),title:__c.T("title",5),profile:(0,__c.yp)("profile",2),xVo:__c.vp("disableRead",3),Wsa:(0,__c.Ap)("editPanel",4,HPn),FZh:__c.F("fixedDimensions",6,IPn)}));
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/61dd6f8983b8a1c5.js.map

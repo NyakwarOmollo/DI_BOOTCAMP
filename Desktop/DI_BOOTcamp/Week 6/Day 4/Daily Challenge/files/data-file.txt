@@ -1,0 +1,4 @@
+Hello from Nairobi!
+This is the daily challenge file.
+Learning Node.js is exciting and rewarding.
+Keep practicing every day!

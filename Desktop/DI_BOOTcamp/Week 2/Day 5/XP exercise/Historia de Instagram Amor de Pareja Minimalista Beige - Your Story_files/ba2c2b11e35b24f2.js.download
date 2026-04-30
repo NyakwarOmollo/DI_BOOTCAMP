@@ -1,0 +1,11 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[57513],{
+
+/***/ 39416:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(502456);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var SQ=__c.SQ;var TQ=__c.TQ;
+__c.nrv=class{get Fkk(){return this.WAa}update(a){this.y1i(a)}y1i(a){a=a.WAa;this.WAa=new TQ((this.viewport.x+this.origin.x)*a.width,(this.viewport.y+this.origin.y)*a.height,a.width*this.viewport.width,a.height*this.viewport.height)}setupCamera(a){const b=a.ctx;var c=a.KYc;const d=a.WAa;this.y1i(a);a=new TQ(this.viewport.x*c.width,this.viewport.y*c.height,this.viewport.width*c.width,this.viewport.height*c.height);this.scale=new SQ(c.width/d.width,c.height/d.height);this.position=new SQ(-this.origin.x*
+d.width,-this.origin.y*d.height);b.setTransform(1,0,0,1,0,0);this.clear&&b.clearRect(a.x,a.y,a.width,a.height);b.fillStyle=__c.jsu(this.clearColor);b.fillRect(a.x,a.y,a.width,a.height);c=new Path2D;c.rect(a.x,a.y,a.width,a.height);b.clip(c);this.Mjl(b)}Mjl(a){a.setTransform(1,0,0,1,0,0);a.transform(this.scale.x,0,0,this.scale.y,0,0);a.translate(this.position.x,this.position.y)}constructor(){({origin:d=new SQ(0,0),viewport:c=new TQ(0,0,1,1),clearColor:b=__c.RQ.clear,clear:a=!1}={});var a,b,c,d;this.origin=
+new SQ(0,0);this.viewport=new TQ(0,0,1,1);this.clearColor=__c.RQ.clear;this.clear=!1;this.scale=new SQ(0,0);this.position=new SQ(0,0);this.WAa=new TQ;this.origin=d;this.viewport=c;this.clearColor=b;this.clear=a}};
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/ba2c2b11e35b24f2.js.map

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise: Form to JSON</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+        form {
+            margin-bottom: 30px;
+        }
+        input {
+            display: block;
+            margin: 10px 0;
+            padding: 8px;
+            width: 300px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        #output {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            white-space: pre-wrap;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Exercise: Form to JSON</h1>
+
+    <form id="userForm">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="firstname" required>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lastname" required>
+
+        <button type="submit">Send</button>
+    </form>
+
+    <h2>Output as JSON:</h2>
+    <pre id="output"></pre>
+
+    <script>
+        const form = document.getElementById("userForm");
+        const output = document.getElementById("output");
+
+        form.addEventListener("submit", function(event) {
+            event.preventDefault();   // Prevent page reload
+
+            // Get values from inputs
+            const firstName = document.getElementById("fname").value.trim();
+            const lastName = document.getElementById("lname").value.trim();
+
+            // Create an object
+            const userData = {
+                firstName: firstName,
+                lastName: lastName
+            };
+
+            // Convert object to JSON string (pretty format)
+            const jsonString = JSON.stringify(userData, null, 4);
+
+            // Display the JSON in the DOM
+            output.textContent = jsonString;
+
+            console.log("JSON Output:", userData);
+        });
+    </script>
+
+</body>
+</html>

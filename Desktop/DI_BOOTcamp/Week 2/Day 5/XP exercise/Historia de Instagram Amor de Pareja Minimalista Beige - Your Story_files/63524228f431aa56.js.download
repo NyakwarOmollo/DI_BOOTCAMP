@@ -1,0 +1,8 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[79104],{
+
+/***/ 612978:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var KBi='<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9.25" stroke="currentColor" stroke-width="1.5"/><path fill-rule="evenodd" clip-rule="evenodd" d="M9.525 6.964a.75.75 0 0 0-1.06 1.061l2.474 2.475-2.475 2.475a.75.75 0 1 0 1.061 1.06L12 11.562l2.475 2.475a.75.75 0 1 0 1.06-1.061L13.062 10.5l2.475-2.475a.75.75 0 0 0-1.061-1.06L12 9.438 9.525 6.964Z" fill="currentColor"/><rect x="8" y="16" width="8" height="1.5" rx=".75" fill="currentColor"/></svg>';__c.LBi=__c.Eq({medium:KBi});
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/63524228f431aa56.js.map

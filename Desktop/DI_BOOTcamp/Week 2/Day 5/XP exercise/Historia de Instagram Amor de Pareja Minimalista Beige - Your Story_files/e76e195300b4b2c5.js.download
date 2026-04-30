@@ -1,0 +1,10 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[90255],{
+
+/***/ 730244:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var YqG=__webpack_require__(929846)._;var ZqG=__webpack_require__(296713).jsx;var $qG=__webpack_require__(978109),arG=$qG.lazy,brG=$qG.Suspense;__c.V6k={U6s:function({La:a,ja:b,Xq:c,Eb:d,source:e}){const f=async h=>{const k=YqG()();try{const l=b.Ptc,m=b.Kne,p=b.errorService,q=b.Ca,[{L$s:r},t,u]=k.r(await k.s(Promise.all([__webpack_require__.me(195585).then(()=>__c.crG),l(),m()]))),{egd:w,Iaj:x,uyl:y}=r({ja:{$a:t,ouf:u,errorService:p,Ca:q},Xq:c,Eb:d,source:e}),z=h.NUs;y.email=z.email;y.heading=z.heading;y.ri=z.ri;y.unb=z.unb;return{egd:w,Iaj:x}}finally{k.s()}},g=h=>{const k=arG(async()=>{const m=YqG()();try{const {egd:p}=m.r(await m.s(f(h)));
+return{default:p}}finally{m.s()}}),l=arG(async()=>{const m=YqG()();try{const {Iaj:p}=m.r(await m.s(f(h)));return{default:p}}finally{m.s()}});return{T5r:k,U5r:l}};return{eew:async({Zkw:h,hBb:k,RXd:l,HTp:m=!1})=>{const p=YqG()();try{if(m){const {Iaj:t,egd:u}=p.r(await p.s(f(h)));k?k(({onClose:w})=>ZqG(t,{onClose:w,RXd:l})):a(({onClose:w})=>ZqG(u,{onClose:w,RXd:l}))}else{var {T5r:q,U5r:r}=g(h);k?k(({onClose:t})=>ZqG(brG,{fallback:ZqG(__c.iu,{}),children:ZqG(r,{onClose:t,RXd:l})})):a(({onClose:t})=>ZqG(brG,
+{fallback:ZqG(__c.je,{open:!0,children:ZqG(__c.iu,{})}),children:ZqG(q,{onClose:t,RXd:l})}))}}finally{p.s()}}}}};
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/e76e195300b4b2c5.js.map

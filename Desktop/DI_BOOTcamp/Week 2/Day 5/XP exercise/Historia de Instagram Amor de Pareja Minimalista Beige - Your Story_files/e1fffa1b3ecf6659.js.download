@@ -1,0 +1,9 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[73547],{
+
+/***/ 761983:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var xOl=function(a,b){var c=__c.xOd.serialize;return[["userId",a.userId],...b.map((d,e)=>[`attribute-${e}`,c(d)])]},yOl=__webpack_require__(929846)._;var zOl=__c.I(()=>({body:__c.E("body",1,__c.kPd)}));__c.AOl=class{async eIf(a,b){const c=yOl()();try{const d=c.r(await c.s(this.BFg([a],b)));return d&&__c.sgb(a,d)}finally{c.s()}}async BFg(a,b){const c=yOl()();try{try{const {responses:d}=c.r(await c.s(this.Fj.XHa(new __c.Cs({rH:a.map(e=>new __c.Bs({attribute:e,bfa:b}))}))));return a.map(e=>__c.Jj(e,d)).filter(__c.zb)}catch(d){c.r(),this.errorService.$q(d,{Ha:"Error getting batch personalization profile attributes",extra:new Map([["attributes",a]])})}}finally{c.s()}}async Ude(a){const b=yOl()();try{try{return b.r(await b.s(this.Fj.Ude(new zOl({body:new __c.kPd({gOe:void 0,
+details:a})})))).Yqo}catch(c){b.r(),this.errorService.$q(c,{Ha:"Error updating user reported attributes:",extra:new Map([["type",a.type],["clientType",__c.wOd.serialize(void 0)],...xOl(this,[a.attributeName])])})}}finally{b.s()}}constructor(a,b,c){this.Fj=a;this.errorService=b;this.userId=c}};
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/e1fffa1b3ecf6659.js.map

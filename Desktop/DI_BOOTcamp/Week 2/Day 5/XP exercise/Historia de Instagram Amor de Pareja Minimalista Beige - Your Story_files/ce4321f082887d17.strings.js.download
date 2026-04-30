@@ -1,0 +1,9 @@
+(function() {
+ const messages = JSON.parse("{\"rrTB3g\":\"This template contains paid elements\",\"xwCsrQ\":\"Ready-to-use content mapped to learning standards\",\"RB7Q0g\":\"Free\",\"1sM9iQ\":\"Paid\",\"/9VE+g\":\"EDU\",\"riKKrw\":\"Resource\",\"C6nqxQ\":\"To use {0, select, media {this premium image} video {this premium video} audio {this premium music track} font {this premium font} other {this premium element}}, upgrade to {1} or pay {2} for a Pro Content Licence\",\"KvNypA\":\"Pro\",\"inGmpA\":\"(Included with your plan)\",\"9lA04g\":\"Upgrade to {1} to use {0, select, media {this premium image} video {this premium video} audio {this premium music track} font {this premium font} element {this premium element} template {this premium template} lesson {this premium lesson} app {this premium app} other {this premium content}}\",\"0dZi8Q\":\"{0, select, media {This premium image} video {This premium video} audio {This premium music track} font {This premium font} element {This premium element} lesson {This premium lesson} template {This premium template} app {This premium app} other {This premium content}} is included with your {1} plan\",\"VLEAww\":\"Upgrade your plan to use this premium learning resource for free\"}");
+ const cmsg = globalThis["cmsg"] = globalThis["cmsg"] || {};
+
+ const loaded = cmsg["loaded"] = cmsg["loaded"] || {};
+ loaded["59530_en-GB"] = 1;
+ const strings = cmsg["strings"] = cmsg["strings"] || {};
+ strings["en-GB"] = strings["en-GB"] ? Object.assign(strings["en-GB"], messages) : messages;
+})();

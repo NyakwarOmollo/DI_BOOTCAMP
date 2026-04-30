@@ -1,0 +1,11 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[95825],{
+
+/***/ 716244:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(555324);__web_req__(312301);__web_req__(771603);__web_req__(898866);__web_req__(964765);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var IVl,KVl,MVl,UVl,QVl,JVl,PVl;__c.HVl=function(a){__c.la(a.pages.length!==0,`Cannot get thumbnail of a 0-page document - ${a.id}`);const b=a.pages[0].thumbnail.width,c=a.pages[0].thumbnail.height;return{height:c,width:b,url:a.pages[0].thumbnail.url,ratio:b/c}};IVl=function(a){__c.la(a.pages.length!==0,`Cannot get thumbnail of a 0-page document - ${a.id}`);const b=[];a.pages.forEach(c=>b.push(c.thumbnail.width/c.thumbnail.height));return b};
+KVl=function(a){return JVl(()=>a.TBa?[]:a.Oj.map(b=>b.thumbnail.url),[a.Oj,a.TBa])};MVl=function({a7a:a}){return async(b,c)=>{const d=LVl()();try{c+=1;const e=b.Oj.length;return b.Ue>e&&(c===1&&e<=20||c===e-10)?(a&&d.r(await d.s(a({item:b,s8m:20}))),{upg:b.Oj.slice(e)}):{upg:[]}}finally{d.s()}}};
+__c.TVl=function({Ilb:a,a7a:b,Pu:c,ra:d}){const e=MVl({a7a:b}),f=NVl.box(0),g=OVl(({design:h,index:k,YA:l})=>{const [m,p]=PVl(()=>IVl(h)[0]),q=QVl(async(t,u)=>{const w=LVl()();try{c?(u&&(RVl(()=>f.set(t)),w.r(await w.s(e(h,t)))),p(IVl(h)[t])):(RVl(()=>f.set(t)),w.r(await w.s(e(h,t))))}finally{w.s()}},[h,p]),r=KVl(h);return r.length===0?SVl(__c.Jvl,{Icon:__c.cx}):SVl(__c.wHl,{urls:r,P8e:q,index:k,Ilb:a,YA:l,Pu:c,aMd:m,zNl:d?.status===__c.fc.$c})});b=OVl(({design:h,location:k})=>SVl(__c.Wl,{location:k,
+visibility:"on-hover",children:SVl("div",{"aria-hidden":"true",children:SVl(__c.vt,{tone:"feedbackOverlay",text:__c.yTl(f.get()+1,h.Ue)})})}));return{WNa:OVl(({design:h,index:k})=>{const l=__c.wo({track:!0});return SVl(g,{design:h,index:k,YA:l})}),kub:b}};UVl=__webpack_require__(978109);QVl=UVl.useCallback;JVl=UVl.useMemo;PVl=UVl.useState;var LVl=__webpack_require__(929846)._;var SVl=__webpack_require__(296713).jsx;var OVl=__webpack_require__(270531).PA;var VVl=__webpack_require__(186901),RVl=VVl.h5,NVl=VVl.sH;
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/c4692b3fc0ce02d9.js.map

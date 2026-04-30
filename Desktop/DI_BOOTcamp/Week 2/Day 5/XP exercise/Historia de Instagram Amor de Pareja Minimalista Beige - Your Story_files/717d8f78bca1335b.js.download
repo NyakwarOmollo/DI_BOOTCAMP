@@ -1,0 +1,8 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[96597],{
+
+/***/ 844999:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var B=__c.B;var I=__c.I;var FKj=()=>({id:__c.S("id",1),extension:__c.T("extension",6)});__c.GKj=I(()=>({...FKj(),type:__c.Ta("type","DOCUMENT",2,"DOCUMENT")}));__c.HKj=__c.db(()=>[1,"PDF",2,"CSV",3,"DOC",4,"DOCX",5,"XLS",6,"XLSX",7,"TXT",8,"MD"]);__c.IKj=I(()=>({...FKj(),type:B("type","FILE",3,"FILE"),url:__c.S("url",31),fileType:__c.Va("fileType",32,__c.HKj)}));var JKj=I(()=>({...FKj(),type:B("type","URL",4,"URL"),url:__c.S("url",33)}));__c.KKj=I(()=>({...FKj(),type:B("type","MEDIA",5,"MEDIA"),mediaId:__c.S("mediaId",34),LG:__c.mp("mediaVersion",35)}));__c.LKj=I(()=>({...FKj(),type:B("type","BRAND_KIT",7,"BRAND_KIT")}));__c.MKj=I(()=>({...FKj(),type:B("type","FILE_ID",8,"FILE_ID")}));var NKj=I(()=>({...FKj(),type:B("type","TEMPLATE",9,"TEMPLATE")}));__c.OKj=__c.cb(()=>({type:[2,__c.GKj,3,__c.IKj,4,JKj,5,__c.KKj,7,__c.LKj,8,__c.MKj,9,NKj]}),FKj,{MOa:()=>__c.GKj});
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/717d8f78bca1335b.js.map

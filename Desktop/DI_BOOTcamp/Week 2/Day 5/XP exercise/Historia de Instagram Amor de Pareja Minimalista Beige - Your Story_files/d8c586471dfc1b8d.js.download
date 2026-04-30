@@ -1,0 +1,10 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[69369],{
+
+/***/ 816401:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var tp=__c.tp;var vp=__c.vp;
+__c.wAl=__c.I(()=>({query:__c.S("query",1),continuation:__c.T("continuation",4),dtf:vp("allowExtensions",6),limit:__c.mp("limit",5,20),hCb:__c.Wa("visibilityViewType",15,__c.yFd),Vf:tp("folders",2),Ril:tp("ancestorContainers",24),types:__c.Xa("types",3,__c.xFd),u8:__c.Xa("domains",16,__c.zFd),lni:__c.qp("modifiedSince",25),N2:__c.qp("modifiedBefore",26),sza:tp("includeFilters",9),yrc:tp("excludeFilters",10),orderBy:__c.Wa("orderBy",7,__c.AFd),sortOrder:__c.Wa("sortOrder",8,__c.BFd),JPf:vp("includePageNumbers",
+11),KPf:__c.up("includeSharedContent",12),vgw:__c.up("skipThumbnailAndTitleHydration",13),brand:__c.T("brand",14),hXg:vp("mustContainSheet",17),gQm:vp("mustContainBoundedPage",18),keywords:tp("keywords",19),T1l:tp("faceIds",20),$qj:tp("conceptIds",21),eel:vp("accessedByCaller",23)}));
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/d8c586471dfc1b8d.js.map

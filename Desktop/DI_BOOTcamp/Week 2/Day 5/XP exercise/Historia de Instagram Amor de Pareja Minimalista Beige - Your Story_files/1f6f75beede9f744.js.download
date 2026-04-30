@@ -1,0 +1,9 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[38300],{
+
+/***/ 869271:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(502456);__web_req__(162160);__web_req__(168188);__web_req__(111475);__web_req__(182630);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var ErG=function(a,{Xql:b,pZb:c="large",count:d=12}){c=__c.Ksu(c);b=new __c.ysu([new __c.PRw({K_d:"viewSpace",D5d:"once",offset:{x:{nua:.5,fixed:0},y:{nua:.5,fixed:0}},radius:b,Nwo:{NRo:1},velocity:{min:10,max:45}}),new __c.Bsu({min:.4,max:.7}),new __c.Asu({Ktf:!0}),new __c.Lsu({type:"override",colors:c}),new __c.Csu([{time:0,value:__c.SQ.zero},{time:.2,value:__c.SQ.one},{time:.4,value:__c.SQ.one},{time:1,value:__c.SQ.zero}]),new __c.zsu([{time:0,value:0},{time:.1,value:1},{time:.6,value:1},{time:1,
+value:0}]),new __c.Nsu({radius:{min:2,max:5}})]);a.qcc(new __c.Fsu([{type:"burst",count:d}]),b)},FrG=__webpack_require__(296713).jsx;var GrG=__webpack_require__(978109),HrG=GrG.useCallback;__c.VIh={R4r:(0,GrG.memo)(function({...a}){const b=HrG((c,d)=>{ErG(c,d)},[]);return FrG(__c.bsv,{...a,emit:b,Dud:1})})};
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/1f6f75beede9f744.js.map

@@ -1,0 +1,8 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[39153],{
+
+/***/ 584193:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var S=__c.S;var I=__c.I;var rUn=__c.db(()=>[1,2,3]);__c.sUn=I(()=>({type:__c.B("A?",1,"WRITING_AGENT_ERROR"),message:S(1),Pd:__c.Va(2,rUn)}));var tUn=__c.db(()=>[1,2,3,4,5,6]);__c.uUn=I(()=>({type:__c.B("A?",3,"SHEET_AGENT_ERROR"),message:S(1),Pd:__c.Va(2,tUn)}));var vUn=__c.cb(()=>({type:[1,__c.sUn,3,__c.uUn]}),()=>({}));var wUn=I(()=>({type:__c.B("A?",1,"TRANSACTION_DELTA")}));__c.xUn=I(()=>({type:__c.B("A?",2,"TRANSACTION_CONTINUATION"),ypj:S(1)}));var yUn=__c.cb(()=>({type:[1,wUn,2,__c.xUn]}),()=>({}));__c.zUn=I(()=>({sdc:S(1),error:__c.F(2,vUn),metadata:__c.F(3,yUn)}));__c.AUn=I(()=>({Ke:S(1),interactionId:S(2),results:__c.Ua(4,__c.zUn),result:__c.F(5,__c.zUn)}));
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/c7ce0f973c894c07.js.map

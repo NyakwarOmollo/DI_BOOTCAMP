@@ -1,0 +1,8 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[24903],{
+
+/***/ 14646:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(812585);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var lMI=({data:a,gfa:b,expr:c,creator:d})=>{const e=b.NPd(a.$l.ref.id);if(!e)throw Error(`Blueprint ${a.$l.ref.id} not found in the document`);return{contents:c.list(()=>e.element.contents.filter(__c.zb).map(f=>d.create(f,a.$l.sd.To,e.element.iw?.Z5)))}};__c.y$j={NOa:__c.vl()(({WWa:{expr:a},wF:{gfa:b}})=>{const c=new __c.J$u(a);return{...__c.it,metadata:{type:"document-blueprint",bRa:d=>d.$l.ref.id,name:__c.M("IqoIzw")},N:{type:0,fob:({N:d})=>lMI({data:d,gfa:b,expr:a,creator:c})},wJt:__c.M("ZogrPA")}})};
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/9a8f7ff7acd6c60f.js.map

@@ -1,0 +1,11 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[2540],{
+
+/***/ 463266:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(555324);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var Sxi;var fwk,iwk,jwk;fwk=function(a,b){return b.Xt.some(c=>c.id===a&&c.Jo===__c.xx.zDa)};__c.gwk=function(a,b){a=a.find(c=>c.id===b);__c.ma(a!=null&&a.type==="BRAND_KIT_SECTION");return a};__c.hwk=function(a,b){for(let c=0;c<a.length;c++){const d=a[c];if(d.type==="INGREDIENT_GROUP"&&d.id===b)return(0,__c.Ka)({JU:void 0,position:c});if(d.type==="BRAND_KIT_SECTION")for(let e=0;e<d.children.length;e++)if(d.children[e].id===b)return(0,__c.Ka)({JU:d.id,position:e})}return(0,__c.La)("not-found")};
+iwk=function(a){return a.type==="BRAND_KIT_SECTION"};jwk=function(a){return a.type==="INGREDIENT_GROUP"};__c.kwk=function(a){return a.CD?a.CD.I$.filter(b=>!jwk(b)||!fwk(b.id,a)).map(b=>{if(iwk(b)){const c=b.children.filter(d=>!fwk(d.id,a));return c.length===b.children.length?b:new __c.Qmh({...b,children:c})}return b}):[]};
+__c.lwk=function(a,b){if(!b.CD)return a;var c=b.CD.I$;const d=new Map;for(const e of c)if(iwk(e)){const f=e.children.filter(g=>fwk(g.id,b));f.length>0&&d.set(e.id,f)}c=c.filter(e=>jwk(e)&&fwk(e.id,b));return[...a.map(e=>{if(iwk(e)){const f=d.get(e.id);if(f&&f.length>0)return new __c.Qmh({...e,children:[...e.children,...f]})}return e}),...c]};Sxi=__c.Sxi={YIt:function(a){__c.ma(a!=null&&a.CD!=null);return a}};Sxi.Q4x=__c.gwk;Sxi.T4x=__c.hwk;Sxi.q9x=__c.kwk;
+Sxi.Vlu=function({blocks:a,KKs:b}){return[b,...a]};Sxi.Ylu=function({blocks:a,JU:b,iju:c}){return b==null?[...a,c]:a.map(d=>d.id!==b||d.type!=="BRAND_KIT_SECTION"?d:new __c.Qmh({...d,children:[...d.children,c]}))};Sxi.yiy=iwk;Sxi.pjy=jwk;Sxi.mPy=__c.lwk;Sxi.VPv=function({blocks:a,gf:b}){return a.reduce((c,d)=>{switch(d.type){case "BRAND_KIT_SECTION":const e=d.children.filter(({id:f})=>f!==b);return[...c,new __c.Qmh({...d,children:e})];default:return d.id!==b?[...c,d]:c}},[])};
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/a65437863ffd4cde.js.map

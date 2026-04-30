@@ -1,0 +1,8 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[78551],{
+
+/***/ 892198:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var bnH=function(a,{resolve:b,reject:c}){const d=new Image;d.src=a;d.complete?b():(d.addEventListener("load",()=>b()),d.addEventListener("error",()=>c()))},cnH=__webpack_require__(815703).F;var dnH;dnH=class{juq(a){if(this.B8)bnH(a,Promise.withResolvers());else if(this.pending.get(a)==null){var b=Promise.withResolvers();this.pending.set(a,b)}}constructor(a){this.B8=!1;this.pending=new Map;__c.la(a==null||a>0,"If defined, prefetchDelayMs must be greater than 0");a!=null?setTimeout(cnH.wrap(()=>{this.B8=!0;for(const [b,c]of this.pending)bnH(b,c);this.pending.clear()}),a):this.B8=!0}};__c.Pnb={};__c.Pnb.e4r=dnH;
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/372bc29a6874b2f4.js.map

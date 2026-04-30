@@ -1,0 +1,10 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[37762],{
+
+/***/ 616380:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {__c.bu.prototype.iwn=__c.da(911,function(a){this.document=new __c.nxc({...this.document,vs:a})});
+__c.C_l=a=>({fb:"design",itemType:"design",extension:void 0,oz:!1,lRk:void 0,id:a,version:1,ref:{id:a,page:0,version:1},loading:!0,title:"",pages:[],Sc:new __c.irc({ki:new __c.Kp({brand:"",user:""}),version:1}),TBa:!1,Nh:0,Ue:0,Kwa:0,category:void 0,Lq:"",sJ:new Set,xEd:[],XKa:void 0,xnb:void 0,lastModified:0,vs:!1,Oj:[],IQn:0,a7e:__c.mwe,yM:1,document:{},mfb:()=>{throw Error("Cannot set ACL on a not-loaded design");},setTitle:()=>{},FBd:()=>{},iwn:()=>{},Jlf:()=>{throw Error("Cannot update a not-loaded design");
+},plh:()=>{},Bpb:()=>({type:"user",userId:""}),iGb:()=>{}});
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/a06174bba02c97dc.js.map

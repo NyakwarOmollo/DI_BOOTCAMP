@@ -1,0 +1,12 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[59064],{
+
+/***/ 554886:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(758247);__web_req__(672902);__web_req__(233900);__web_req__(216134);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var Oc=__c.Oc;var Kc=__c.Kc;var kkr=__webpack_require__(929846)._;var skr,lkr,mkr;
+skr=class{async Bfm(a){const b=kkr()();try{__c.la(a.userId!=null&&/^U[a-zA-Z0-9_-]{10}$/.test(a.userId));const c=Kc([lkr,"privacypreferences",a.userId]);__c.Hc(c,{includeUserDetails:a.Wzp,includeBrandLevelEligible:a.Yhu});const d=Oc(c),[e,{g_r:f}]=b.r(await b.s(Promise.all([this.Ea.get(d,{Ra:"getprivacypreferences",serviceName:mkr}),__webpack_require__.me(542429).then(()=>({g_r:__c.nkr}))])));return f.deserialize(e)}finally{b.s()}}async BYn(a){const b=kkr()();try{__c.la(a.userId!=null&&/^U[a-zA-Z0-9_-]{10}$/.test(a.userId));
+const c=Oc(Kc([lkr,"privacypreferences",a.userId])),d={Ra:"updateprivacypreferences",serviceName:mkr},[e,{uos:f}]=b.r(await b.s(Promise.all([this.Ea.post(c,__c.jkr.serialize(a),d),__webpack_require__.me(542429).then(()=>({uos:__c.okr}))])));return f.deserialize(e)}finally{b.s()}}async uqr(a){const b=kkr()();try{__c.la(a.ua!=null&&/^B[a-zA-Z0-9_-]{10}$/.test(a.ua));const c=Oc(Kc([lkr,"privacypreferences","brands",a.ua])),d={Ra:"updatebrandprivacypreferences",serviceName:mkr},[e,{Ans:f}]=b.r(await b.s(Promise.all([this.Ea.post(c,
+__c.gkr.serialize(a),d),__webpack_require__.me(542429).then(()=>({Ans:__c.pkr}))])));return f.deserialize(e)}finally{b.s()}}async Owh(a){const b=kkr()();try{const c=Oc(Kc([lkr,"trackingconsent","add"])),d={Ra:"addtrackingconsentapi",serviceName:mkr},[e,{SAr:f}]=b.r(await b.s(Promise.all([this.Ea.post(c,__c.hkr.serialize(a.body),d),__webpack_require__.me(946270).then(()=>({SAr:__c.qkr}))])));return f.deserialize(e)}finally{b.s()}}async $vl(){const a=kkr()();try{const b=Oc(Kc([lkr,"trackingconsent",
+"check"])),[c,{xGr:d}]=a.r(await a.s(Promise.all([this.Ea.get(b,{Ra:"checktrackingconsent",serviceName:mkr}),__webpack_require__.me(946270).then(()=>({xGr:__c.rkr}))])));return d.deserialize(c)}finally{a.s()}}constructor(a){this.Ea=a}};lkr="privacypreference";mkr="privacy-preference";__c.Mkb={};__c.Mkb.x3r=skr;
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/0e0d0d431b8873c0.js.map

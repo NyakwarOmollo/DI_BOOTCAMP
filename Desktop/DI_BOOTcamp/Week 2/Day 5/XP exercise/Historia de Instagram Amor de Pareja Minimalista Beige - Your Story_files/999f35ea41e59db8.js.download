@@ -1,0 +1,8 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[4723],{
+
+/***/ 473178:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {__c.nsl=function(a){if(a)return __c.Wg({top:a.top,left:a.left,width:a.width,height:a.height})};__c.osl=__webpack_require__(815703).F;__c.psl=__webpack_require__(296713).jsx;var qsl;qsl=__webpack_require__(978109);__c.rsl=qsl.memo;__c.ssl=qsl.useEffect;var tsl;tsl=__webpack_require__(186901);__c.usl=tsl.sH;__c.vsl=tsl.XI;__c.wsl=tsl.z7;
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/999f35ea41e59db8.js.map

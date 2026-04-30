@@ -1,0 +1,11 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[94005],{
+
+/***/ 349564:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(555324);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var n=__c.n;__c.Hsl=function(a){const b=a.document;__c.ma(b!=null,"Non-design passed to mapItemToDesign");return new __c.bu(b,n(a.yM,"No ACL available for item: "+a.id),{Lq:a.Lq})};
+__c.Isl=function(a,b,c){const d=a.document;if(a.template)return c.oke(n(a.template),{Lq:a.Lq,category:a.category,extension:a.pqb?.extension});if(d)return b.P2c({summary:d,access:n(a.yM,"No ACL available for item: "+a.id),category:a.category,Lq:a.Lq,XKa:a.ige?.id,extension:a.pqb?.extension});throw Error("invalid template passed to mapItemToTemplateDuringMigration");};__c.eZk={};__c.eZk.mrx=__c.Hsl;
+__c.eZk.x7s=({Pp:a,qB:b,rE:c,Iq:d,PWb:e})=>f=>{switch(f.type){case 3:return d.n1h(n(f.media),{yL:f.yL,extension:f.pqb?.extension});case 4:case 1:return b.P2c({summary:n(f.document),access:n(f.yM,"No ACL available for item: "+f.id),category:f.category,Lq:f.Lq,XKa:f.ige?.id,extension:f.pqb?.extension});case 5:return c.oke(n(f.template),{Lq:f.Lq,category:f.category,extension:f.pqb?.extension});case 2:[f]=a.Amb([n(f.Ta,"expected item::folder to be hydrated")]);if(!f)break;if(f.type===3&&f.id)return f;
+break;case 7:return e.tMj(n(f.video),{extension:f.pqb?.extension});case 9:case 8:case 6:throw Error(`Unsupported item ${f.id} returned from folder service as type ${__c.xId.serialize(f.type)}`);default:throw new __c.v(f.type);}};__c.eZk.Ary=__c.Isl;
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/4db48682b304ad15.js.map

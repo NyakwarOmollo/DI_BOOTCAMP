@@ -1,0 +1,10 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[56601],{
+
+/***/ 428896:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(555324);__web_req__(355190);__web_req__(349076);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var Aol=__webpack_require__(296713),Bol=Aol.jsx,Col=Aol.jsxs;var Dol=__webpack_require__,Eol=Dol(208463),Fol=Dol.n_x(Eol)();var Gol=__webpack_require__(978109),Hol=Gol.useId,Iol=Gol.useRef;__c.Jol=({isOpen:a,x2e:b,G1a:c,Zkk:d,mu:e})=>{const f=Iol(!!c);var g=__c.C_k(a);const h=Hol();g!=null&&g!==a&&(f.current=!0);g=null;b?g=Col("svg",{className:Fol("EN8CbA","fm2Vng"),width:"24",height:"24",viewBox:"0 0 24 24",version:"1.1",xmlns:"http://www.w3.org/2000/svg",children:[Bol("circle",{cx:"7.5",cy:"14.5",r:"1.5",fill:"#11171D",fillOpacity:"0.6"}),Bol("circle",{cx:"12",cy:"14.5",r:"1.5",fill:"#11171D",fillOpacity:"0.6"}),Bol("circle",{cx:"16.5",cy:"14.5",r:"1.5",fill:"#11171D",fillOpacity:"0.6"})]}):
+d==="uploads"&&(g=Bol(__c.zx,{size:"tiny",className:"U1ypNw"}));b=null;e&&(b=Bol("div",{className:"booajA",children:Bol(__c.zol,{size:"tiny"})}));return Col("div",{className:Fol("yYlguQ",{CbwCQA:c,gXgQaQ:f.current&&a,UW6XNA:f.current&&!a}),children:[Bol("div",{className:"_1HONFg"}),Col("svg",{className:"EN8CbA",width:"24",height:"24",viewBox:"0 0 24 24",version:"1.1",xmlns:"http://www.w3.org/2000/svg",children:[Bol("path",{d:"M10.857,2L6.024,2C3.817,2 2.004,3.787 2,5.994L2,14.814C1.996,17.026 22,17.028 22,14.819L22,8.025C22,6.368 20.653,5.025 18.997,5.025L14.521,5.025C14.33,5.025 14.156,4.916 14.072,4.745L13.551,3.681C13.048,2.653 12.002,2 10.857,2Z",
+fill:`url(#${h})`}),Bol("defs",{children:Col("linearGradient",{id:h,x1:"0%",y1:"0%",x2:"0%",y2:"100%",children:[Bol("stop",{className:"iNOJFQ",offset:"0%"}),Bol("stop",{className:"x16Rgg",offset:"100%"})]})})]}),g,b]})};
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/2659d7f9042194d9.js.map

@@ -1,0 +1,8 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[71603],{
+
+/***/ 166162:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(734120);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var URI=function(){return()=>TRI("div",{})},TRI=__webpack_require__(296713).jsx;var VRI=__webpack_require__(978109),WRI=VRI.memo,XRI=VRI.useMemo;var YRI=class{},ZRI=class{};var $RI=__c.vl()(({wF:a})=>{const b=new YRI;a=a.G3b;const c=WRI(function({data:d,ctx:{Dc:e,lv:f}}){d=XRI(()=>URI(),[d,e,f]);return TRI(d,{})});return{metadata:{type:"motion_graphic",name:"Motion Graphic"},dGc:()=>new ZRI,N:__c.ul(c),exports:{configuration:b,G3b:a}}});__c.R$j={TW:__c.Jck,NOa:$RI,UW:__c.vdk};
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/43cc3ce07df0c2b6.js.map

@@ -1,0 +1,9 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[38810],{
+
+/***/ 391675:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(555324);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var ObG=__webpack_require__(929846)._;__c.$vh={R3s:async function(a){const b=ObG()();try{const c=a.type;switch(c){case 3:const [{wCr:d},{ans:e}]=b.r(await b.s(Promise.all([__webpack_require__.me(959871).then(()=>__c.oRz),__webpack_require__.me(107320).then(()=>__c.PbG)]))),f=new d;return new e(f);case 2:const [{GGr:g},{HGr:h}]=b.r(await b.s(Promise.all([__webpack_require__.me(622759).then(()=>__c.yRz),__webpack_require__.me(447425).then(()=>__c.$LF)]))),k=new g;return new h(k);case 4:const [{D1r:l},{gEv:m},{E1r:p}]=b.r(await b.s(Promise.all([__webpack_require__.me(495659).then(()=>
+__c.bSF),__webpack_require__.me(532979).then(()=>__c.D4F),__webpack_require__.me(786150).then(()=>__c.TRF)]))),q=new l,{Nzh:r}=m();return new p(q,r,a.mb,a.Eb,a.ioa,a.eyb,a.Ttc);default:throw new __c.v(c);}}finally{b.s()}}};
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/32af94c91a815983.js.map

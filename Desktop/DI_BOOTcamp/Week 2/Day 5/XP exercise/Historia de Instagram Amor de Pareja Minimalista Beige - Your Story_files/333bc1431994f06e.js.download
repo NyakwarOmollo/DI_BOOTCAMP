@@ -1,0 +1,8 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[3681],{
+
+/***/ 588552:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(844999);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var F=__c.F;var I=__c.I;var PKj=I(()=>({u6l:__c.S("flagName",1),fep:__c.S("flagValue",2)}));var QKj=__c.db(()=>[1,"CONVERSATION",2,"QUERY",3,"RAW"]);var RKj=I(()=>({VLv:__c.up("rawHtml",1)}));var SKj=I(()=>({VLv:__c.up("rawHtml",2)}));var TKj=I(()=>({enabled:__c.up("enabled",1)}));var UKj=I(()=>({url:F("url",1,RKj),Lfz:F("webSearch",2,SKj),yMx:F("documentSearch",3,TKj)}));var VKj=__c.db(()=>[0,1]);var WKj=I(()=>({source:__c.Va(1,VKj),content:__c.S(2)}));var XKj=I(()=>({YMc:__c.Ua(1,WKj)}));__c.YKj=I(()=>({Poa:__c.S("question",1),OVp:__c.Ua("manuallyReferencedItems",5,__c.OKj),E6:__c.Ua("flagOverrides",2,PKj),epb:__c.up("explain",3),ep:__c.T("searchRequestId",4),mode:__c.Wa("mode",6,QKj),LPy:F("referenceOptions",7,UKj),Inx:F("answerJobContext",8,XKj)}));
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/333bc1431994f06e.js.map

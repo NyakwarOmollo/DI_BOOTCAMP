@@ -1,0 +1,9 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[4125],{
+
+/***/ 585876:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(905716);__web_req__(22214);__web_req__(285541);globalThis._456c437108d2d2713799e19380be528d = globalThis._456c437108d2d2713799e19380be528d || {};(function(__c) {var OOI=function(a){return a.map(b=>new __c.hlr(b))},POI=function(a,b){if(a.color!=null)return new __c.llr({color:a.color});a=a.gradient.ref;return a!=null?a.type==="linear"?new __c.ilr({stops:OOI(a.stops),rotation:(a.rotation+180)%360}):new __c.klr({stops:OOI(a.stops),center:new __c.jlr({top:a.center.top*100,left:a.center.left*100})}):new __c.qlr({JBi:b})},QOI={[1]:1,[2]:2,[3]:3,[4]:4,[5]:5,[6]:6},ROI=__webpack_require__(296713).jsx;var SOI=__webpack_require__(270531).PA;__c.U$j={NOa:__c.vl()(()=>({...__c.it,metadata:{type:"dynamic-qr-code",name:"Dynamic QR Code"},N:__c.ul(SOI(({data:{N:{Ooa:a}}})=>{if(a.ref.type==="uninitialized")return ROI(__c.Q,{display:"flex",width:"full",height:"full",alignItems:"center",justifyContent:"center",children:ROI("div",{className:"J4zgsA",children:ROI("span",{className:"t6Iz9w",children:"<QR Code Placeholder>"})})});var b=a.ref;b={foregroundColor:POI(b.cLj,1),backgroundColor:POI(b.fSa,2),gdp:__c.Vgt[b.EWe],Hbc:QOI[b.Hbc],logo:new __c.olr({Eji:1}),
+errorCorrectionLevel:4};a=__c.Ugt(a.ref.r6o,b);return ROI(__c.Q,{display:"flex",width:"full",height:"full",alignItems:"center",justifyContent:"center",children:ROI("img",{className:"_6_oDJw",src:a,alt:"Dynamic QR Code"})})}))}))};
+}).call(globalThis, globalThis._456c437108d2d2713799e19380be528d);}
+
+}])
+//# sourceMappingURL=sourcemaps/be24d99a5614134e.js.map
