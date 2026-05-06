@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "firstName": "Calvin",
+    "lastName": "Ochieng",
+    "email": "calvinochieng207@gmail.com",
+    "username": "Ochibo",
+    "password": "$2a$10$2VuHOesSZaPYsGardH/T5ea/hocqDZr6VNF4RRGynjUHflMZeHklu",
+    "createdAt": "2026-05-06T07:27:49.623Z"
+  }
+]

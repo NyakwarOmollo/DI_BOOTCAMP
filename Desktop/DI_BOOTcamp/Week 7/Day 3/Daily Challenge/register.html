@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Register New User</h1>
+    <nav>
+      <a href="/login.html">Already have an account? Login here</a>
+    </nav>
+    <form id="registerForm">
+      <input type="text" id="firstName" placeholder="First Name" required>
+      <input type="text" id="lastName" placeholder="Last Name" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="text" id="username" placeholder="Username" required>
+      <input type="password" id="password" placeholder="Password" required>
+
+      <button type="submit" id="submitBtn" disabled>Register</button>
+    </form>
+    <p id="message"></p>
+  </div>
+
+  <script>
+    const form = document.getElementById('registerForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const message = document.getElementById('message');
+
+    // Enable button only when all input fields are filled
+    form.addEventListener('input', () => {
+      const inputs = [...form.elements].filter(el => el.tagName === 'INPUT');
+      const allFilled = inputs.every(el => el.value.trim() !== '');
+      submitBtn.disabled = !allFilled;
+    });
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const userData = {
+        firstName: document.getElementById('firstName').value,
+        lastName: document.getElementById('lastName').value,
+        email: document.getElementById('email').value,
+        username: document.getElementById('username').value,
+        password: document.getElementById('password').value
+      };
+
+      const res = await fetch('/register', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(userData)
+      });
+
+      const data = await res.json();
+
+      if (res.ok) {
+        // Registration successful, now auto-login
+        message.style.color = 'green';
+        message.textContent = 'Registration successful! Logging you in...';
+
+        const loginRes = await fetch('/login', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            username: userData.username,
+            password: userData.password
+          })
+        });
+
+        const loginData = await loginRes.json();
+
+        if (loginRes.ok) {
+          message.textContent = `Welcome ${loginData.user.firstName}! You are now logged in.`;
+          // Optionally redirect to a dashboard or home page
+          // window.location.href = '/dashboard.html';
+        } else {
+          message.style.color = 'red';
+          message.textContent = 'Registration successful but login failed. Please try logging in manually.';
+        }
+      } else {
+        message.style.color = 'red';
+        message.textContent = data.message;
+      }
+    });
+  </script>
+</body>
+</html>

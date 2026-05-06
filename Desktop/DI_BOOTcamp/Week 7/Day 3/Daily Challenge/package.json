@@ -1,0 +1,14 @@
+{
+  "name": "daily-challenge-auth",
+  "version": "1.0.0",
+  "description": "Simple user auth app with register and login pages.",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2"
+  }
+}
