@@ -1,0 +1,14 @@
+{
+  "SocialMedias": ["Facebook", "Instagram", "Twitter", "LinkedIn"],
+  "Skills": ["HTML", "CSS", "JS", "React", "Node.js"],
+  "Experiences": [
+    {
+      "company": "Tech Corp",
+      "role": "Frontend Developer"
+    },
+    {
+      "company": "Web Solutions",
+      "role": "Full Stack Developer"
+    }
+  ]
+}
